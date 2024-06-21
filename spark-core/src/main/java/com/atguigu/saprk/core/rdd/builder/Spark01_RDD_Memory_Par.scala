@@ -5,7 +5,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 object Spark01_RDD_Memory_Par {
 
   def main(args: Array[String]): Unit = {
-
+    // 1123
     // TODO 准备环境
     val sparkConf = new SparkConf().setMaster("local[*]").setAppName("RDD")
     sparkConf.set("spark.default.parallelism", "5")
